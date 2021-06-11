@@ -45,6 +45,9 @@ Example:
                 die($msg);
             }
 
+## Issues
+Attachments don't work on my webhosts email but do work on gmail. 
+Sometimes it takes few minutes for mail to appear.
 
 ### Have Fun
 `Developed and tested under 5.4.118-1-manjaro/xfce/docker/portainer`
