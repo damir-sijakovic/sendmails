@@ -37,13 +37,13 @@ Boolean, error messages are passed through emsg reference argument.
 
 Example:
 
-$msg = '';
-$html = '<html><body><h1 style="color:red;">Hello</h1><br><p style="color:green;">This is paragraph.</p></body></html>';
-$sendOk = sendAttachment('destination@fake.fake', 'from@fake.fake', 'hello subject', $html, 'somefile2.pdf', __DIR__ . '/somefile2.pdf', $msg);
-if (!sendOk)
-{
-    die($msg);
-}
+            $msg = '';
+            $html = '<html><body><h1 style="color:red;">Hello</h1><br><p style="color:green;">This is paragraph.</p></body></html>';
+            $sendOk = sendAttachment('destination@fake.fake', 'from@fake.fake', 'hello subject', $html, 'somefile2.pdf', __DIR__ . '/somefile2.pdf', $msg);
+            if (!sendOk)
+            {
+                die($msg);
+            }
 
 
 ### Have Fun
